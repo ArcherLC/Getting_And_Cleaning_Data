@@ -1,7 +1,7 @@
 ## Set working directory
 setwd("~/Documents/Coursera Data Specialization/")
 
-## Read training data
+## Read the training data
 traindata <- read.csv("UCI HAR Dataset/train/X_train.txt", sep = "", header = FALSE)
 traindata[,562] <- read.csv("UCI HAR Dataset/train/y_train.txt", sep = "", header = FALSE)
 traindata[,563] <- read.csv("UCI HAR Dataset/train/subject_train.txt", sep = "", header = FALSE)

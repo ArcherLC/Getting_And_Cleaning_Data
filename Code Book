@@ -1,0 +1,33 @@
+#Codebook
+In this project there were 2 data sources of main interest: training and test data.  Each data set had 561 unlabeled variables
+with no descriptive values.  For each data source, there is another two data sets: its respective activity labels and its respective
+subjects.  Also, in different files there is a data set for activity names and features.
+
+The activities are stored in a file named activity_labels.txt.  The activities are:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+The features are the measurements done on each subject for each activity.  The features (measurements) are:
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+Both, training and test data sets are merged in order to complete the whole analysis and thus, be able to create the tidy data set.
